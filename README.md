@@ -6,7 +6,7 @@
   <li>Cristian Felipe Ramirez Ovalles - 20172020068</li>
 </ul>
 <h3>¿Que se encontrara en este repositorio?</h3>
-<p>En este repositorio, principalmente se encontrara el planteamiento del problema, descripcion de los requerimientoss y roles de una tienda de barrio en linea, la cual facilitara la compra y venta de mercancias. Adelante se detallaran en profundidad el programa.</p>
+<p>En este repositorio, principalmente se encontrara el planteamiento del problema, descripcion de los requerimientoss y roles de una tienda de barrio en linea, la cual facilitara la compra y venta de mercancias. A continuaci&oacuten se detallara en profunidad los detalles del proyecto.</p>
 <ol>
   <li><h3>Roles</h3></li>  
   <p><b>Cliente:</b></br>Es quien compra los productos de la tienda.</p>

@@ -68,7 +68,7 @@
     <li>Como cliente deseo seleccionar el tipo de pago para mis pedidos</li>
     <li>Como cliente deseo ver la factura de mi pedido</li>
   </ul>
-  <li>Tareas sprint</li>
+  <li><h2>Tareas sprint</h2></li>
   <ul>
     <li>Crear el inicio / regitro para los usuarios</li>
     <li>Desarrollar / estructurar la Base de datos</li>

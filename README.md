@@ -14,4 +14,23 @@
   <p><b>Tendero:</b></br>Es quien se encarga de alistar los pedidos y entregarlos a los domiciliarios para que ellos despues ejecuten su rol.</p>
   <li><h3>Procesos</h3></li>
   <p><b>Venta de productos:</b></br>Diferentes formas de pago (debito,credito,contra-entrega). En caso de problema de devoluci&oacuten de dinero. Confirmacion del pago. Historico de compras asociado a clientes y domiciliarios.</p>
+  <ul>
+    <li>Metodo de pago y su gestion (credito, debito o contra entrega)</li>
+    <li>Gestion de devoluciones y quejas</li>
+  </ul>
+  <p><b>Pedidos:</b></br>Se corrobora que el pedido exista en la base de datos, se valida la atencion y comunicacion con el cliente ademas de agendar una entrega.</p>
+  <ul>
+    <li>Gestion de inventario</li>
+    <li>Atencion del pedido</li>
+    <li>Agenda fecha de entrega del pedido</li>
+    <li>Visualizar pedidos</li>
+  </ul>
+  <p><b>Pedidos:</b></br>Se corrobora que el pedido exista en la base de datos, se valida la atencion y comunicacion con el cliente ademas de agendar una entrega.</p>
+  <ul>
+    <li>Gestion de inventario</li>
+    <li>Atencion del pedido</li>
+    <li>Agenda fecha de entrega del pedido</li>
+    <li>Visualizar pedidos</li>
+  </ul>
+  
 </ol>

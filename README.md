@@ -18,19 +18,30 @@
     <li>Metodo de pago y su gestion (credito, debito o contra entrega)</li>
     <li>Gestion de devoluciones y quejas</li>
   </ul>
-  <p><b>Pedidos:</b></br>Se corrobora que el pedido exista en la base de datos, se valida la atencion y comunicacion con el cliente ademas de agendar una entrega.</p>
+  <p><b>Administracion de pedidos:</b></br>Se corrobora que el pedido exista en la base de datos, se valida la atencion y comunicacion con el cliente ademas de agendar una entrega.</p>
   <ul>
     <li>Gestion de inventario</li>
     <li>Atencion del pedido</li>
     <li>Agenda fecha de entrega del pedido</li>
     <li>Visualizar pedidos</li>
   </ul>
-  <p><b>Pedidos:</b></br>Se corrobora que el pedido exista en la base de datos, se valida la atencion y comunicacion con el cliente ademas de agendar una entrega.</p>
+  <p><b>Acondicionamiento del pedido</b></br>Luego de validar el inventario, se retira de este, se confirma el pedido y se identifica la zona de entrega, ademas de su factura</p>
   <ul>
-    <li>Gestion de inventario</li>
-    <li>Atencion del pedido</li>
-    <li>Agenda fecha de entrega del pedido</li>
-    <li>Visualizar pedidos</li>
+    <li>Retirar productos del inventario (BD)</li>
+    <li>Confirma pedido</li>
+    <li>Identificacion de zona entrega</li>
+    <li>Facturacion</li>
   </ul>
-  
+  <p><b>Despacho</b></br>Se busca domiciliario disponible, se confirma este al cliente. El domiciliario tiene visual de la ubicacion de entrega y su ruta</p>
+  <ul>
+    <li>Buscar domiciliario disponible</li>
+    <li>Muestra el domiciliario al cliente</li>
+    <li>Se visualiza ubicacion de entrega</li>
+    <li>Se muestra la ruta de entrega</li>
+  </ul>
+  <p><b>Gestion de inventario</b></p>
+  <ul>
+    <li>Retirar  o agergar productos del inventario (BD)</li>
+  </ul>
+  <li><h2>Historias de usuario</h2></li>
 </ol>

@@ -44,4 +44,34 @@
     <li>Retirar  o agergar productos del inventario (BD)</li>
   </ul></br>
   <li><h2>Historias de usuario</h2></li>
+  </br><h3>Domiciliario:</h3>
+  <ul>
+    <li>Como domiciliario deseo agrupar todas las entregas para diligenciarlas de un solo despacho</li>
+    <li>Como domiciliario deseo conocer la ruta de viaje del despacho</li>
+    <li>Como domiciliario deseo ver reporte de quejas de mi atencion con la entrega al cliente</li>
+  </ul>
+  </br><h3>Tendero:</h3>
+  <ul>
+    <li>Como tendero deseo agrupar todos los pedidos recibidos para despacharlos</li> 
+    <li>Como tendero deseo  que la orden del pedido genere factura para ser enviada con el domiciliario</li>
+    <li>Como tendero deseo tener control de inventario para ofrecer productos en existencia</li>
+    <li>Como tendero deseo tener reportes de clientes y quejas</li>
+    <li>Como tendero deseo poder administrar ordenes de pedidos</li>
+  </ul>
+  </br><h3>Cliente:</h3>
+  <ul>
+    <li>Como cliente deseo solicitar al tendero productos desde mi dispositivo para facilitar compras</li> 
+    <li>Como cliente deseo conocer la fecha de entrega de mi pedido</li>
+    <li>Como cliente deseo seleccionar productos y agregarlos a mi pedido</li>
+    <li>Como cliente deseo cancelar productos de mi pedido</li>
+    <li>Como cliente deseo dar mi ubicacion automaticamente al sistema para facilitar la entrega</li>
+    <li>Como cliente deseo seleccionar el tipo de pago para mis pedidos</li>
+    <li>Como cliente deseo ver la factura de mi pedido</li>
+  </ul>
+  <li>Tareas sprint</li>
+  <ul>
+    <li>Crear el inicio / regitro para los usuarios</li>
+    <li>Desarrollar / estructurar la Base de datos</li>
+    <li>Maquetaci&ocuten de la pagina (HTML/CSS o  Bootstrap)</li>
+  </ul>
 </ol>

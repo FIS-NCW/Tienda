@@ -60,6 +60,8 @@
   </ul>
   </br><h3>Cliente:</h3>
   <ul>
+    <li>Como cliente deseo registrarme en la plataforma para tener una cuenta de usuario</li>
+    <li>Como cliente deseo ingresar a la plataforma web para poder acceder a todos sus servicios</li> 
     <li>Como cliente deseo solicitar al tendero productos desde mi dispositivo para facilitar compras</li> 
     <li>Como cliente deseo conocer la fecha de entrega de mi pedido</li>
     <li>Como cliente deseo seleccionar productos y agregarlos a mi pedido</li>

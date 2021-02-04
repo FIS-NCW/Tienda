@@ -71,7 +71,7 @@
   <li><h2>Tareas sprint</h2></li>
   <ul>
     <li>Crear el inicio / regitro para los usuarios</li>
-    <li>Desarrollar / estructurar la Base de datos</li>
-    <li>Maquetaci&ocuten de la pagina (HTML/CSS o  Bootstrap)</li>
+    <li>Desarrollar / estructurar la Base de datos de la tabla de los productos para poder presentarlos luego en pantalla</li>
+    <li>Maquetaci&ocuten de la pagina que muestra los productos disponibles en el inventario (HTML/CSS o  Bootstrap)</li>
   </ul>
 </ol>

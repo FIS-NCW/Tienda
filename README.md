@@ -1,62 +1,85 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<h1>Tienda virtual</h1>
+<h2>Integrantes</h2>
+<ul>
+  <li>Andres Felipe Wilches Torres - 20172020114</li>
+  <li>William Nicolas Buitrago Camacho - 20172020079</li>
+  <li>Cristian Felipe Ramirez Ovalles - 20172020068</li>
+</ul>
+<h3>¿Que se encontrara en este repositorio?</h3>
+<p>En este repositorio, principalmente se encontrara el planteamiento del problema, descripcion de los requerimientoss y roles de una tienda de barrio en linea, la cual facilitara la compra y venta de mercancias. A continuaci&oacuten se detallara en profunidad los detalles del proyecto.</p>
+<ol>
+  <li><h2>Roles</h2></li>  
+  <p><b>Cliente:</b></br>Es quien compra los productos de la tienda.</p>
+  <p><b>Domiciliario:</b></br>Es quien lleva los pedidos de las tiendas al cliente.</p>
+  <p><b>Tendero:</b></br>Es quien se encarga de alistar los pedidos y entregarlos a los domiciliarios para que ellos despues ejecuten su rol.</p>
+  <li><h2>Procesos</h2></li>
+  <p><b>Venta de productos:</b></br>Diferentes formas de pago (debito,credito,contra-entrega). En caso de problema de devoluci&oacuten de dinero. Confirmacion del pago. Historico de compras asociado a clientes y domiciliarios.</p>
+  <ul>
+    <li>Metodo de pago y su gestion (credito, debito o contra entrega)</li>
+    <li>Gestion de devoluciones y quejas</li>
+  </ul></br>
+  <p><b>Administracion de pedidos:</b></br>Se corrobora que el pedido exista en la base de datos, se valida la atencion y comunicacion con el cliente ademas de agendar una entrega.</p>
+  <ul>
+    <li>Gestion de inventario</li>
+    <li>Atencion del pedido</li>
+    <li>Agenda fecha de entrega del pedido</li>
+    <li>Visualizar pedidos</li>
+  </ul></br>
+  <p><b>Acondicionamiento del pedido</b></br>Luego de validar el inventario, se retira de este, se confirma el pedido y se identifica la zona de entrega, ademas de su factura</p>
+  <ul>
+    <li>Retirar productos del inventario (BD)</li>
+    <li>Confirma pedido</li>
+    <li>Identificacion de zona entrega</li>
+    <li>Facturacion</li>
+  </ul></br>
+  <p><b>Despacho</b></br>Se busca domiciliario disponible, se confirma este al cliente. El domiciliario tiene visual de la ubicacion de entrega y su ruta</p>
+  <ul>
+    <li>Buscar domiciliario disponible</li>
+    <li>Muestra el domiciliario al cliente</li>
+    <li>Se visualiza ubicacion de entrega</li>
+    <li>Se muestra la ruta de entrega</li>
+  </ul></br>
+  <p><b>Gestion de inventario</b></p>
+  <ul>
+    <li>Retirar  o agergar productos del inventario (BD)</li>
+  </ul></br>
+  <li><h2>Historias de usuario</h2></li>
+  </br><h3>Domiciliario:</h3>
+  <ul>
+    <li>Como domiciliario deseo agrupar todas las entregas para diligenciarlas de un solo despacho</li>
+    <li>Como domiciliario deseo conocer la ruta de viaje del despacho</li>
+    <li>Como domiciliario deseo ver reporte de quejas de mi atencion con la entrega al cliente</li>
+  </ul>
+  </br><h3>Tendero:</h3>
+  <ul>
+    <li>Como tendero deseo agrupar todos los pedidos recibidos para despacharlos</li> 
+    <li>Como tendero deseo  que la orden del pedido genere factura para ser enviada con el domiciliario</li>
+    <li>Como tendero deseo tener control de inventario para ofrecer productos en existencia</li>
+    <li>Como tendero deseo tener reportes de clientes y quejas</li>
+    <li>Como tendero deseo poder administrar ordenes de pedidos</li>
+  </ul>
+  </br><h3>Cliente:</h3>
+  <ul>
+    <li>(OK)Como cliente deseo registrarme en la plataforma para tener una cuenta de usuario</li>
+    <li>(OK)Como cliente deseo ingresar a la plataforma web para poder acceder a todos sus servicios</li> 
+    <li>Como cliente deseo solicitar al tendero productos desde mi dispositivo para facilitar compras</li> 
+    <li>Como cliente deseo conocer la fecha de entrega de mi pedido</li>
+    <li>Como cliente deseo seleccionar productos y agregarlos a mi pedido</li>
+    <li>Como cliente deseo cancelar productos de mi pedido</li>
+    <li>Como cliente deseo dar mi ubicacion automaticamente al sistema para facilitar la entrega</li>
+    <li>Como cliente deseo seleccionar el tipo de pago para mis pedidos</li>
+    <li>Como cliente deseo ver la factura de mi pedido</li>
+  </ul>
+  <li><h2>Tareas sprint</h2></li>
+  <ul>
+    <li>Crear el inicio / regitro para los usuarios</li>
+    <li>Desarrollar / estructurar la Base de datos de la tabla de los productos para poder presentarlos luego en pantalla</li>
+    <li>Maquetaci&oacuten de la pagina que muestra los productos disponibles en el inventario (HTML/CSS o  Bootstrap)</li>
+  </ul>
+</ol>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
-
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Sprint dos (4 días)
+### Como cliente deseo solicitar al tendero productos desde mi dispositivo para facilitar compras
+### Como cliente deseo seleccionar productos y agregarlos a mi pedido
+### Como cliente deseo cancelar productos de mi pedido
+### Como cliente deseo ver la factura de mi pedido

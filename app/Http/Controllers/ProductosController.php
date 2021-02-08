@@ -9,6 +9,6 @@ class ProductosController extends Controller
 {
     public function mostrar(){
         $productos=Producto::where("cantidad_inventario",">",0)->paginate(12);
-        return view('productos',compact("productos"));    
+        return view('productos',compact("productos"));     
     }
 }

@@ -65,6 +65,9 @@
                             </div>
                         </div>
                     </form>
+                    <p style="text-align: center">-o-</p>
+                    <a href="{{url('login/facebook')}}" class="btn btn-block btn-primary"><h3 style="display: inline"><i class="fab fa-facebook"></i></h3> Inicia sesión con Facebook</a>
+                    <a href="{{url('login/google')}}" class="btn btn-block btn-danger"><h3 style="display: inline"><i class="fab fa-google"></i></h3> Inicia sesión con Google</a>
                 </div>
             </div>
         </div>

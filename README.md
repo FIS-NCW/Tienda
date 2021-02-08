@@ -60,8 +60,8 @@
   </ul>
   </br><h3>Cliente:</h3>
   <ul>
-    <li>Como cliente deseo registrarme en la plataforma para tener una cuenta de usuario</li>
-    <li>Como cliente deseo ingresar a la plataforma web para poder acceder a todos sus servicios</li> 
+    <li>(OK)Como cliente deseo registrarme en la plataforma para tener una cuenta de usuario</li>
+    <li>(OK)Como cliente deseo ingresar a la plataforma web para poder acceder a todos sus servicios</li> 
     <li>Como cliente deseo solicitar al tendero productos desde mi dispositivo para facilitar compras</li> 
     <li>Como cliente deseo conocer la fecha de entrega de mi pedido</li>
     <li>Como cliente deseo seleccionar productos y agregarlos a mi pedido</li>
@@ -77,3 +77,9 @@
     <li>Maquetaci&oacuten de la pagina que muestra los productos disponibles en el inventario (HTML/CSS o  Bootstrap)</li>
   </ul>
 </ol>
+
+## Sprint dos (4 días)
+### Como cliente deseo solicitar al tendero productos desde mi dispositivo para facilitar compras
+### Como cliente deseo seleccionar productos y agregarlos a mi pedido
+### Como cliente deseo cancelar productos de mi pedido
+### Como cliente deseo ver la factura de mi pedido

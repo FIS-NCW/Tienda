@@ -29,7 +29,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="text-center">
+                <li class="text-center">-
                     <img src="images/banner-02.jpg" alt="">
                     <div class="container">
                         <div class="row">
@@ -48,7 +48,7 @@
                             <div class="col-md-12">
                                 <h1 class="m-b-20"><strong>Bienvenido a <br> FIS Store</strong></h1>
                                 <p class="m-b-40">La tienda de barrio más completa de la ciudad. Aquí encontrarás <br>productos de la mejor calidad al alcance de un click </p>
-                                <p><a class="btn hvr-hover" href="{{ route('productos.mostrar') }}">Ir a la tienda</a></p>
+                                <p><a class="btn hvr-hover" href="{{ route('productos.mostrar') }}">Ir a la tienda</a></p>*
                             </div>
                         </div>
                     </div>
